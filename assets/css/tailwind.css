@@ -1,74 +1,244 @@
 @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-Thin.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-Thin.woff') format('woff');
-	font-weight: 100;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-UltraLight.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-UltraLight.woff') format('woff');
-	font-weight: 200;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-	@font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-Light.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-Light.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-	}
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-Regular.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-Regular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-SemiBold.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-SemiBold.woff') format('woff');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-Bold.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-Bold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-UltraBold.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-UltraBold.woff') format('woff');
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap;
-  }
-	
-  @font-face {
-	font-family: 'fj Platz Groteske';
-	src: url('fonts/fjPlatzGroteske-Black.woff2') format('woff2'),
-	url('fonts/fjPlatzGroteske-Black.woff') format('woff');
-	font-weight: 900;
-	font-style: normal;
-	font-display: swap;
-  }
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Heavy.eot');
+    src: local('fj Platz Groteske Heavy'), local('fjPlatzGroteske-Heavy'),
+        url('fonts/fjPlatzGroteske-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Heavy.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Heavy.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-BoldItalic.eot');
+    src: local('fj Platz Groteske Bold Italic'), local('fjPlatzGroteske-BoldItalic'),
+        url('fonts/fjPlatzGroteske-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-BoldItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-BoldItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-RegularItalic.eot');
+    src: local('fj Platz Groteske Italic'), local('fjPlatzGroteske-RegularItalic'),
+        url('fonts/fjPlatzGroteske-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-RegularItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-RegularItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Black.eot');
+    src: local('fj Platz Groteske Black'), local('fjPlatzGroteske-Black'),
+        url('fonts/fjPlatzGroteske-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Black.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Black.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-BlackItalic.eot');
+    src: local('fj Platz Groteske Black Italic'), local('fjPlatzGroteske-BlackItalic'),
+        url('fonts/fjPlatzGroteske-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-BlackItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-BlackItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Bold.eot');
+    src: local('fj Platz Groteske Bold'), local('fjPlatzGroteske-Bold'),
+        url('fonts/fjPlatzGroteske-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Bold.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Bold.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-HeavyItalic.eot');
+    src: local('fj Platz Groteske Heavy Italic'), local('fjPlatzGroteske-HeavyItalic'),
+        url('fonts/fjPlatzGroteske-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-HeavyItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-HeavyItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fonts/fjPlatzGroteske-UltraLightItalic.eot');
+    src: local('fj Platz Groteske Ultra Light Italic'), local('fjPlatzGroteske-UltraLightItalic'),
+        url('fonts/fjPlatzGroteske-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-UltraLightItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-UltraLightItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fonts/fjPlatzGroteske-UltraLight.eot');
+    src: local('fj Platz Groteske Ultra Light'), local('fjPlatzGroteske-UltraLight'),
+        url('fonts/fjPlatzGroteske-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-UltraLight.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-UltraLight.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-LightItalic.eot');
+    src: local('fj Platz Groteske Light Italic'), local('fjPlatzGroteske-LightItalic'),
+        url('fonts/fjPlatzGroteske-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-LightItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-LightItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Regular.eot');
+    src: local('fj Platz Groteske'), local('fjPlatzGroteske-Regular'),
+        url('fonts/fjPlatzGroteske-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Regular.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Regular.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fonts/fjPlatzGroteske-UltraBoldItalic.eot');
+    src: local('fj Platz Groteske Ultra Bold Italic'), local('fjPlatzGroteske-UltraBoldItalic'),
+        url('fonts/fjPlatzGroteske-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-UltraBoldItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-UltraBoldItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-UltraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Normal';
+    src: url('fonts/fjPlatzGroteske-Normal.eot');
+    src: local('fj Platz Groteske Normal'), local('fjPlatzGroteske-Normal'),
+        url('fonts/fjPlatzGroteske-Normal.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Normal.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Normal.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Semi';
+    src: url('fonts/fjPlatzGroteske-SemiBoldItalic.eot');
+    src: local('fj Platz Groteske Semi Bold Italic'), local('fjPlatzGroteske-SemiBoldItalic'),
+        url('fonts/fjPlatzGroteske-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-SemiBoldItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Semi';
+    src: url('fonts/fjPlatzGroteske-SemiBold.eot');
+    src: local('fj Platz Groteske Semi Bold'), local('fjPlatzGroteske-SemiBold'),
+        url('fonts/fjPlatzGroteske-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-SemiBold.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-SemiBold.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-ThinItalic.eot');
+    src: local('fj Platz Groteske Thin Italic'), local('fjPlatzGroteske-ThinItalic'),
+        url('fonts/fjPlatzGroteske-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-ThinItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-ThinItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Norm';
+    src: url('fonts/fjPlatzGroteske-NormalItalic.eot');
+    src: local('fj Platz Groteske Norm Italic'), local('fjPlatzGroteske-NormalItalic'),
+        url('fonts/fjPlatzGroteske-NormalItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-NormalItalic.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-NormalItalic.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-NormalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Light.eot');
+    src: local('fj Platz Groteske Light'), local('fjPlatzGroteske-Light'),
+        url('fonts/fjPlatzGroteske-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Light.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Light.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fonts/fjPlatzGroteske-UltraBold.eot');
+    src: local('fj Platz Groteske Ultra Bold'), local('fjPlatzGroteske-UltraBold'),
+        url('fonts/fjPlatzGroteske-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-UltraBold.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-UltraBold.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fonts/fjPlatzGroteske-Thin.eot');
+    src: local('fj Platz Groteske Thin'), local('fjPlatzGroteske-Thin'),
+        url('fonts/fjPlatzGroteske-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fjPlatzGroteske-Thin.woff2') format('woff2'),
+        url('fonts/fjPlatzGroteske-Thin.woff') format('woff'),
+        url('fonts/fjPlatzGroteske-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
   
   html, body {
 	font-family: 'fj Platz Groteske';

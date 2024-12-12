@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Heavy.eot');
+    src: local('fj Platz Groteske Heavy'), local('fjPlatzGroteske-Heavy'),
+        url('fjPlatzGroteske-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Heavy.woff2') format('woff2'),
+        url('fjPlatzGroteske-Heavy.woff') format('woff'),
+        url('fjPlatzGroteske-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-BoldItalic.eot');
+    src: local('fj Platz Groteske Bold Italic'), local('fjPlatzGroteske-BoldItalic'),
+        url('fjPlatzGroteske-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-BoldItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-BoldItalic.woff') format('woff'),
+        url('fjPlatzGroteske-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-RegularItalic.eot');
+    src: local('fj Platz Groteske Italic'), local('fjPlatzGroteske-RegularItalic'),
+        url('fjPlatzGroteske-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-RegularItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-RegularItalic.woff') format('woff'),
+        url('fjPlatzGroteske-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Black.eot');
+    src: local('fj Platz Groteske Black'), local('fjPlatzGroteske-Black'),
+        url('fjPlatzGroteske-Black.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Black.woff2') format('woff2'),
+        url('fjPlatzGroteske-Black.woff') format('woff'),
+        url('fjPlatzGroteske-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-BlackItalic.eot');
+    src: local('fj Platz Groteske Black Italic'), local('fjPlatzGroteske-BlackItalic'),
+        url('fjPlatzGroteske-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-BlackItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-BlackItalic.woff') format('woff'),
+        url('fjPlatzGroteske-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Bold.eot');
+    src: local('fj Platz Groteske Bold'), local('fjPlatzGroteske-Bold'),
+        url('fjPlatzGroteske-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Bold.woff2') format('woff2'),
+        url('fjPlatzGroteske-Bold.woff') format('woff'),
+        url('fjPlatzGroteske-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-HeavyItalic.eot');
+    src: local('fj Platz Groteske Heavy Italic'), local('fjPlatzGroteske-HeavyItalic'),
+        url('fjPlatzGroteske-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-HeavyItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-HeavyItalic.woff') format('woff'),
+        url('fjPlatzGroteske-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fjPlatzGroteske-UltraLightItalic.eot');
+    src: local('fj Platz Groteske Ultra Light Italic'), local('fjPlatzGroteske-UltraLightItalic'),
+        url('fjPlatzGroteske-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-UltraLightItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-UltraLightItalic.woff') format('woff'),
+        url('fjPlatzGroteske-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fjPlatzGroteske-UltraLight.eot');
+    src: local('fj Platz Groteske Ultra Light'), local('fjPlatzGroteske-UltraLight'),
+        url('fjPlatzGroteske-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-UltraLight.woff2') format('woff2'),
+        url('fjPlatzGroteske-UltraLight.woff') format('woff'),
+        url('fjPlatzGroteske-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-LightItalic.eot');
+    src: local('fj Platz Groteske Light Italic'), local('fjPlatzGroteske-LightItalic'),
+        url('fjPlatzGroteske-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-LightItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-LightItalic.woff') format('woff'),
+        url('fjPlatzGroteske-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Regular.eot');
+    src: local('fj Platz Groteske'), local('fjPlatzGroteske-Regular'),
+        url('fjPlatzGroteske-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Regular.woff2') format('woff2'),
+        url('fjPlatzGroteske-Regular.woff') format('woff'),
+        url('fjPlatzGroteske-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fjPlatzGroteske-UltraBoldItalic.eot');
+    src: local('fj Platz Groteske Ultra Bold Italic'), local('fjPlatzGroteske-UltraBoldItalic'),
+        url('fjPlatzGroteske-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-UltraBoldItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-UltraBoldItalic.woff') format('woff'),
+        url('fjPlatzGroteske-UltraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Normal';
+    src: url('fjPlatzGroteske-Normal.eot');
+    src: local('fj Platz Groteske Normal'), local('fjPlatzGroteske-Normal'),
+        url('fjPlatzGroteske-Normal.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Normal.woff2') format('woff2'),
+        url('fjPlatzGroteske-Normal.woff') format('woff'),
+        url('fjPlatzGroteske-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Semi';
+    src: url('fjPlatzGroteske-SemiBoldItalic.eot');
+    src: local('fj Platz Groteske Semi Bold Italic'), local('fjPlatzGroteske-SemiBoldItalic'),
+        url('fjPlatzGroteske-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-SemiBoldItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-SemiBoldItalic.woff') format('woff'),
+        url('fjPlatzGroteske-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Semi';
+    src: url('fjPlatzGroteske-SemiBold.eot');
+    src: local('fj Platz Groteske Semi Bold'), local('fjPlatzGroteske-SemiBold'),
+        url('fjPlatzGroteske-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-SemiBold.woff2') format('woff2'),
+        url('fjPlatzGroteske-SemiBold.woff') format('woff'),
+        url('fjPlatzGroteske-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-ThinItalic.eot');
+    src: local('fj Platz Groteske Thin Italic'), local('fjPlatzGroteske-ThinItalic'),
+        url('fjPlatzGroteske-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-ThinItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-ThinItalic.woff') format('woff'),
+        url('fjPlatzGroteske-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Norm';
+    src: url('fjPlatzGroteske-NormalItalic.eot');
+    src: local('fj Platz Groteske Norm Italic'), local('fjPlatzGroteske-NormalItalic'),
+        url('fjPlatzGroteske-NormalItalic.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-NormalItalic.woff2') format('woff2'),
+        url('fjPlatzGroteske-NormalItalic.woff') format('woff'),
+        url('fjPlatzGroteske-NormalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Light.eot');
+    src: local('fj Platz Groteske Light'), local('fjPlatzGroteske-Light'),
+        url('fjPlatzGroteske-Light.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Light.woff2') format('woff2'),
+        url('fjPlatzGroteske-Light.woff') format('woff'),
+        url('fjPlatzGroteske-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske Ultra';
+    src: url('fjPlatzGroteske-UltraBold.eot');
+    src: local('fj Platz Groteske Ultra Bold'), local('fjPlatzGroteske-UltraBold'),
+        url('fjPlatzGroteske-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-UltraBold.woff2') format('woff2'),
+        url('fjPlatzGroteske-UltraBold.woff') format('woff'),
+        url('fjPlatzGroteske-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fj Platz Groteske';
+    src: url('fjPlatzGroteske-Thin.eot');
+    src: local('fj Platz Groteske Thin'), local('fjPlatzGroteske-Thin'),
+        url('fjPlatzGroteske-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fjPlatzGroteske-Thin.woff2') format('woff2'),
+        url('fjPlatzGroteske-Thin.woff') format('woff'),
+        url('fjPlatzGroteske-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
