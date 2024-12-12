@@ -1,3 +1,82 @@
+@font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-Thin.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-UltraLight.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-UltraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+	@font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-Light.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+	}
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-Regular.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-SemiBold.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-Bold.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-UltraBold.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-UltraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+  }
+	
+  @font-face {
+	font-family: 'fj Platz Groteske';
+	src: url('fonts/fjPlatzGroteske-Black.woff2') format('woff2'),
+	url('fonts/fjPlatzGroteske-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  html, body {
+	font-family: 'fj Platz Groteske';
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	text-rendering: optimizeSpeed;
+  }
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,3 +116,4 @@
 		@apply max-w-[var(--widthContent)];
 	}
 }
+
